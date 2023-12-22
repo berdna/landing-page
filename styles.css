@@ -84,3 +84,39 @@ ul {
     margin-top: 10px;
 }
 /* End Hero Section */
+.gallery {
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    height: 400px;
+}
+.gallery .gal-text {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.gallery .cards {
+    display: flex;
+    justify-content: space-around;
+}
+.gallery .card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+.card-item .box {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    border: 2px solid #3882f6;
+}
+.card-item .card-text {
+  text-align: center;
+}
+/* End Gallery Section */
+
+/* Begin Quote Section */
