@@ -88,7 +88,7 @@ ul {
     display: flex;
     background: #fff;
     justify-content: center;
-    height: 400px;
+    height: 450px;
 }
 .gallery .gal-text {
     display: flex;
@@ -120,3 +120,66 @@ ul {
 /* End Gallery Section */
 
 /* Begin Quote Section */
+.quote {
+    background: #e5e7eb;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote .quotetext {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote .quoteauthor {
+    align-self: end;
+}
+/* End Quote Section */
+
+/* Begin CTA Section */
+.cta {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.cta .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.cta .cta-block {
+    background: #3882f6;
+    border-radius: 30px;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.cta .btn-primary {
+    background: #3882f6;
+    color: #fff;
+    border-radius: 15px;
+    border: 2px solid white;
+    padding: 15px 32px;
+    text-align: center;
+    margin-top: 10px;
+}
+/* End CTA */
+.footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    background: #1f2937;
+    color: white;
+    align-items: center;
+}
